@@ -1,6 +1,8 @@
 import java.awt.*;
-class pull_down_menu{
-    pull_down_menu(){
+class pull_down_menu
+{
+    pull_down_menu()
+{
         Frame f= new Frame("Menu and MenuItem Example");
         MenuBar mb=new MenuBar();
         Menu menu=new Menu("BCA II SEM SUBJECTS");
@@ -22,7 +24,8 @@ class pull_down_menu{
         f.setLayout(null);
         f.setVisible(true);
     }
-    public static void main(String args[]){
+    public static void main(String args[])
+{
         new pull_down_menu();
     }
 }
